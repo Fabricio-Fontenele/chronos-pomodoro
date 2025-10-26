@@ -1,9 +1,11 @@
-import "./App.css";
+import { Heading } from "./components/Heading";
+import "./styles/global.css";
+import "./styles/theme.css";
 
 function App() {
   return (
     <>
-      <h1>Hello world</h1>
+      <Heading />
     </>
   );
 }
