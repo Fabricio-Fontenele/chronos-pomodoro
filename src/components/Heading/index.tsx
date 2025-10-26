@@ -1,4 +1,4 @@
-import style from "./Heading.module.css";
+import style from "./styles.module.css";
 
 type HeadingProps = {
   children: string;
@@ -7,7 +7,7 @@ type HeadingProps = {
 export const Heading = ({ children }: HeadingProps) => {
   return (
     <>
-      <h1 className={style.Heading}>{children}</h1>
+      <h1 className={style.heading}>{children}</h1>
     </>
   );
 };
