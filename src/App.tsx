@@ -9,6 +9,7 @@ import { Menu } from "./components/Menu";
 
 import "./styles/global.css";
 import "./styles/theme.css";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -46,6 +47,10 @@ function App() {
             <DefaultButton icon={<PlayCircleIcon />} />
           </div>
         </form>
+      </Container>
+
+      <Container>
+        <Footer />
       </Container>
     </>
   );
